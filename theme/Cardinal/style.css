@@ -7,22 +7,21 @@ a img,:link img,:visited img {border:none}
 /** GLOBAL SETS **/
 .clear {clear:both;}
 .hidden {display:none;}
-body {margin:0 0 50px 0;font-size:13px;color:#222;font-family:arial,lucida,tahoma, helvetica, verdana;background:#FFF url(images/bg.png) top repeat-x;text-align:center;}
+body {margin:0 0 50px 0;font-size:13px;color:#222;font-family:arial,lucida,tahoma, helvetica, verdana; text-align:center;}
 a:link, a:visited {color:#BA0000;text-decoration:underline;}
 a:hover, a:focus {color:#1a1a1a;text-decoration:underline;}
-#wrapper {width:925px;margin-right:auto;margin-left:auto;}
-
-#header {position:relative;height:180px;}
+#wrapper {margin-right:auto;margin-left:auto;}
+#header {width:100%;position:absolute; top:0; left:0;position:relative;height:180px; background-color:red}
 #homepage #header {position:relative;height:415px;}
 
-#header #nav {position:absolute;top:10px;left:0;list-style:none;}
+#header #nav {position:absolute;top:10px;left:50;list-style:none;}
 #header #nav li {float:left;margin:0 10px 0 0;font-size:13px;text-transform:uppercase;font-weight:bold;}
 #header #nav li a {display:block;line-height:30px;padding:0 10px;}
 #header #nav li a:link, #header #nav li a:visited {border:1px solid #D23939;color:#E17979;text-decoration:none;}
 #header #nav li a:hover, #header #nav li a:focus {color:#FFFFFF;text-decoration:none;}
 #header #nav li.current a  {border:1px solid #FFC4C4;color:#FFFFFF;text-decoration:none;}
 
-#header a.logo:link, #header a.logo:visited, #header a.logo:hover {position:absolute;top:68px;left:0;
+#header a.logo:link, #header a.logo:visited, #header a.logo:hover {position:absolute;top:68px;left:50;
 color:#fff;
 font-size:52px;
 text-transform:uppercase;
@@ -37,7 +36,7 @@ text-transform:uppercase;
 font-family:Arial;
 letter-spacing:-2px;
 }
-#content {text-align:left;}
+#content {left: 50; text-align:left;}
 
 #content h1 {font-size:40px;font-family:arial;line-height:40px;letter-spacing:-2px;margin:25px 0 20px 0;}
 #content h2 {font-size:25px;font-family:arial;line-height:37px;letter-spacing:-1px;margin:25px 0 10px 0;}
